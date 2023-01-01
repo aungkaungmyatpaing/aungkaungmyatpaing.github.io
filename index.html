@@ -1,12 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aung Kaung Myat Paing</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Developer Portfolio</title>
+  <!-- Include the Tailwind CSS file -->
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body>
-    Aung Kaung Myat Paing
+<body class="bg-gray-900">
+  <!-- Top navbar -->
+<nav class="bg-gray-800 shadow-md fixed w-full z-10 top-0">
+  <div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2">
+    <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden mt-2 lg:mt-0 bg-gray-800" id="nav-content">
+      <ul class="list-reset lg:flex justify-end items-center">
+        <li class="mr-3 py-2 lg:py-0">
+          <a class="inline-block py-2 px-4 text-gray-100 font-bold no-underline" href="#">Home</a>
+        </li>
+        <li class="mr-3 py-2 lg:py-0">
+          <a class="inline-block text-gray-600 no-underline hover:text-gray-200 hover:text-underline py-2 px-4" href="#">Projects</a>
+        </li>
+        <li class="mr-3 py-2 lg:py-0">
+          <a class="inline-block text-gray-600 no-underline hover:text-gray-200 hover:text-underline py-2 px-4" href="#">About</a>
+        </li>
+        <li class="mr-3 py-2 lg:py-0">
+          <a class="inline-block text-gray-600 no-underline hover:text-gray-200 hover:text-underline py-2 px-4" href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+  <!-- Hero section -->
+  <div class="bg-gray-900 h-screen flex flex-col items-center justify-center">
+    <div class="container mx-aut">
+      <div class="flex flex-wrap items-center justify-between">
+        <div class="w-full md:w-4/12 px-4 text-center">
+          <img src="https://scontent.fphs2-1.fna.fbcdn.net/v/t1.6435-9/97706666_981192265630064_6984596397962035200_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=174925&_nc_ohc=tyQ1d99lZ2wAX-M4TyR&tn=pqoglgTKRb43c52Q&_nc_ht=scontent.fphs2-1.fna&oh=00_AfDHZ5RsbzWnVD4mPge0giJFwKlQGOuCYscA8gGeJ1NqsA&oe=63D89242" class="rounded-full shadow-lg h-64 w-64 mx-auto mb-10 bg-gray-700">
+        </div>
+        <div class="w-full md:w-8/12 px-4">
+          <h1 class="text-3xl font-semibold leading-tight text-gray-100">Aung Kaung Myat Paing</h1>
+          <p class="text-xl font-light leading-relaxed mt-4 text-gray-100">Web Developer</p>
+          <p class="text-base font-light leading-relaxed mt-4 text-gray-500">Hello, I'm a junior web developer with some experience in a variety of languages and frameworks.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Programming Skills section -->
+<div class="bg-gray-800 py-32">
+  <div class="container mx-auto px-4">
+    <h2 class="text-2xl font-semibold leading-tight text-center text-gray-100 mb-12">Languages</h2>
+    <div class="grid grid-cols-3 gap-4">
+      <div class="col-span-1 py-6 px-4 text-center bg-gray-700 rounded-lg shadow-md">
+        <img src="https://img.freepik.com/free-icon/html-5_318-674234.jpg?w=2000" alt="HTML5" class="h-12 mb-4">
+        <h3 class="text-xl font-semibold leading-tight text-gray-100">HTML5</h3>
+        <p class="text-base font-light leading-relaxed mt-2 text-gray-100">Advanced</p>
+      </div>
+      <div class="col-span-1 py-6 px-4 text-center bg-gray-700 rounded-lg shadow-md">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png" alt="CSS3" class="h-14 mb-4">
+        <h3 class="text-xl font-semibold leading-tight text-gray-100">CSS</h3>
+        <p class="text-base font-light leading-relaxed mt-2 text-gray-100">Advanced</p>
+      </div>
+      <div class="col-span-1 py-6 px-4 text-center bg-gray-700 rounded-lg shadow-md">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="JavaScript" class="h-12 mb-4">
+        <h3 class="text-xl font-semibold leading-tight text-gray-100">JavaScript</h3>
+        <p class="text-base font-light leading-relaxed mt-2 text-gray-100">Beginner</p>
+      </div>
+      <div class="col-span-1 py-6 px-4 text-center bg-gray-700 rounded-lg shadow-md">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Webysther_20160423_-_Elephpant.svg/2560px-Webysther_20160423_-_Elephpant.svg.png" alt="JavaScript" class="h-12 mb-4">
+        <h3 class="text-xl font-semibold leading-tight text-gray-100">PHP</h3>
+        <p class="text-base font-light leading-relaxed mt-2 text-gray-100">Beginner</p>
+      </div>
+      <!-- Add more skill boxes here -->
+    </div>
+  </div>
+
+  <div class="container mx-auto pt-20 px-4">
+    <h2 class="text-2xl font-semibold leading-tight text-center text-gray-100 mb-12">Frameworks</h2>
+    <div class="grid grid-cols-3 gap-4">
+      <div class="col-span-1 py-6 px-4 text-center bg-gray-700 rounded-lg shadow-md">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Laravel.svg/985px-Laravel.svg.png" alt="Laravel" class="h-12 mb-4">
+        <h3 class="text-xl font-semibold leading-tight text-gray-100">Laravel</h3>
+        <p class="text-base font-light leading-relaxed mt-2 text-gray-100">Beginner</p>
+      </div>
+      <div class="col-span-1 py-6 px-4 text-center bg-gray-700 rounded-lg shadow-md">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1280px-Bootstrap_logo.svg.png" alt="Bootstrap" class="h-14 mb-4">
+        <h3 class="text-xl font-semibold leading-tight text-gray-100">Tailwind</h3>
+        <p class="text-base font-light leading-relaxed mt-2 text-gray-100">Beginner</p>
+      </div>
+      <div class="col-span-1 py-6 px-4 text-center bg-gray-700 rounded-lg shadow-md">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/1024px-Tailwind_CSS_Logo.svg.png" alt="Tailwind" class="h-12 mb-4">
+        <h3 class="text-xl font-semibold leading-tight text-gray-100">Tailwind</h3>
+        <p class="text-base font-light leading-relaxed mt-2 text-gray-100">Beginner</p>
+      </div>
+      </div>
+      <!-- Add more skill boxes here -->
+    </div>
+  </div>
+</div>
+
+
+
+
+<!-- Footer -->
+<footer class="bg-gray-800 py-12">
+  <div class="container mx-auto px-4">
+    <div class="flex flex-wrap items-center justify-between">
+      <div class="w-full md:w-4/12 px-4">
+        <p class="text-base font-semibold leading-relaxed text-gray-100">Copyright &copy; 2021 Aung Kaung Myat Paing</p>
+      </div>
+      <div class="w-full md:w-8/12 px-4">
+        <ul class="list-reset flex justify-center items-center flex-wrap">
+          <li class="mr-6">
+            <a href="#" class="text-gray-100 hover:text-gray-200 no-underline">Home</a>
+          </li>
+          <li class="mr-6">
+            <a href="#" class="text-gray-100 hover:text-gray-200 no-underline">About</a>
+          </li>
+          <li class="mr-6">
+            <a href="#" class="text-gray-100 hover:text-gray-200 no-underline">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
 </body>
 </html>
